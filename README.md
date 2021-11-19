@@ -1,7 +1,7 @@
 # JMM2011
-This repository presents the C++ version of [Judd, Maliar, and Maliar (2011, QE)](https://onlinelibrary.wiley.com/doi/abs/10.3982/QE14). The original code was written in Matlab. The numerical integration technique and their codes are very useful. In addition, this repository can be useful for researchers who want to use JMM (2001) method in C++ for utmost performance. You only need the header file (NumIntegrate.h), and no other packages outside the C++17 standard are needed.
+This repository presents the C++ version of [Judd, Maliar, and Maliar (2011, QE)](https://onlinelibrary.wiley.com/doi/abs/10.3982/QE14). The original code was written in Matlab. The numerical integration technique and codes from original authors are very useful. In addition, this repository can be useful for researchers who want to use JMM (2001) method in C++ for utmost performance. You only need the header file (NumIntegrate.h), and no other packages outside the C++17 standard are needed.
 
-In this repository, you will find functions to generate integration nodes and weights using [1] Gauss-Hermite quadrature, and [2] two Monomial integration algorithms presented in Judd, Maliar, and Maliar (2011, QE). Especially, we can generated nodes for corrlated shocks.
+In this repository, you will find functions to generate integration nodes and weights using [1] Gauss-Hermite quadrature and [2] two Monomial integration algorithms presented in Judd, Maliar, and Maliar (2011, QE). The Judd, Maliar, and Maliar (2011, QE) method also allows numerical integration over correlated shocks.
 
 ## Sample Code
 ```cpp
